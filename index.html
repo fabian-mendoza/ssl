@@ -3,23 +3,23 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-with, initial-scale=1">
-        <meta name="author" content="Fabian">
-        <meta name="description" content="Background with CSS">
-        <meta name="keywords" content="html, css, web, seo, web development">
-        <title>Landing Page</title>
-        <link rel="icon" href="../src/img/favicon.png" type="image/x-icon">
+        <meta name="author" content="Fabian Mendoza">
+        <meta name="description" content="Learn About SSL">
+        <meta name="keywords" content="ssl, html, css, web">
+        <title>Learn About SSL</title>
+        <link rel="icon" href="./assests/img/favicon.png" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
-        <link rel="stylesheet" href="./css/landing-page.css">
+        <link rel="stylesheet" href="./assests/css/style.css">
     </head>
     <body>
         <main>
             <div class="hero-banner">
                 <div class="container">
-                    <div class="hero-banner-content">
-                        <h2>The Future is Now</h2>
-                        <p>Our new tech will blow your mind</p>
+                    <div>
+                        <h1>SSL for Dummies</h1>
+                        <p>You do not need to be an expert to understand this concept</p>
                         <div class="hero-banner-buttons">
                             <a class="primary" href="#">Know more</a>
                             <a class="secundary" href="#">Join us</a>
@@ -27,17 +27,92 @@
                     </div>
                 </div>
             </div>
-            <section class="our-project">
+            <section>
                 <div class="container">
-                    <h3>Our project</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo itaque sapiente, laudantium obcaecati saepe, rem, perferendis officia qui reprehenderit excepturi ipsum nemo nostrum neque ipsa distinctio quas provident amet quibusdam?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo itaque sapiente, laudantium obcaecati saepe, rem, perferendis officia qui reprehenderit excepturi ipsum nemo nostrum neque ipsa distinctio quas provident amet quibusdam?
-                    </p>
+                    <div>
+                        <h2><u>What you will learn in this class</u></h2>
+                        <p>If you do not understand it the first time, we will explain it <span>more clearly</span> so do not worry!</p>
+                    </div>
+                    <div>
+                        <h3>What is SSL?</h3>
+                        <p>
+                            SSL (Secure Sockets Layer) is a standard security technology used to establish an encrypted link between a web server and a browser. This encryption ensures that all data passed between the server and browser remains private and secure. While SSL itself is now deprecated, many people still use the term to refer to its successor, TLS.
+                        </p>
+                        <p>
+                            <span>More clear?</span>
+                            SSL is a method used to keep data secure when you visit a website. It creates a secret code between your browser and the website, so others can't see it.
+                        </p>            
+                    </div>     
+                    <div>
+                        <h3>What is TLS?</h3>
+                        <p>
+                            TLS (Transport Layer Security) is the successor to SSL and provides secure communication over a network. it is an upgraded version of SSL, offering better security and encryption. TLS is what is used today to protect data in transit between a client (like your web browser) and a server (like a website you're visiting).
+                        </p>
+                        <p>
+                            <span>More Clear?</span>
+                            TLS is the updated version of SSL. It works the same way, but with better security. It helps keep your information safe when you're browsing online.                            
+                        </p>              
+                    </div>   
+                    <div>
+                        <h3>How can I tell that my webpage is secure?</h3>
+                        <p>
+                            You can tell a webpage is secure by checking for a padlock icon in the address bar of your web browser. Additionally, the URL of the page should start with "https://" rather than "http://". The "s" stands for "secure", indicating that the webpage is using SSL/TLS encryption.
+                        </p>
+                        <p>
+                            <span>More Clear?</span>
+                            You can see if a webpage is secure by looking for a padlock symbol next to the web address in your browser. Also, the web address should start with "https://" instead of "http://".
+                        </p>              
+                    </div>        
+                    <div>
+                        <h3>What does it mean to be secure?</h3>
+                        <p>
+                            Being secure means that the data exchanged between your device and a website is encrypted and protected from unauthorized access. In this context, "secure" typically refers to the protection of sensitive information (such as passwords, credit card numbers) from eavesdropping, tampering, or forgery during transmission over the internet.
+                        </p>
+                        <p>                            
+                            <span>More Clear?</span>
+                            That means the information you send and receive is protected so that no one can steal it, especially personal info like passwords or credit card numbers.
+                        </p>              
+                    </div>    
+                    <div>
+                        <h3>What is encryption and why do I care?</h3>
+                        <p>
+                            Encryption is the process of converting information or data into a code to prevent unauthorized access. You care about encryption because it keeps your sensitive data (like personal information, credit card details) safe from hackers or other malicious entities while it is being transferred over the internet. Encryption ensures that even if someone intercepts the data, they can't read it without the proper decryption key.
+                        </p>
+                        <p>
+                            <span>More Clear?</span>
+                            Encryption changes your information into a secret code when you send it online. You care because it keeps your data, like passwords, safe from hackers while it's being sent.
+                        </p>              
+                    </div>
+                    <div>
+                        <h3>Do the prefixes HTTP or HTTPS matter when we're talking about secure websites?</h3>
+                        <p>
+                            Yes, they do matter. HTTP (HyperText Transfer Protocol) is unencrypted, meaning data transmitted between your browser and the server can potentially be intercepted and read by attackers. HTTPS (HyperText Transfer Protocol Secure) uses SSL/TLS to encrypt that data, making the connection much safer and protecting sensitive information.
+                        </p>
+                        <p>                            
+                            <span>More Clear?</span>
+                            Of course, they matter! HTTP is not secure and can be easily hacked. HTTPS adds security by encrypting the data, making it much harder for hackers to steal your information.
+                        </p>              
+                    </div>
+                    <div>
+                        <h3>What is an SSL certificate authority?</h3>
+                        <p>
+                            An SSL certificate authority (CA) is a trusted entity that issues digital certificates to verify the ownership of websites. These certificates are crucial because they help confirm that a website is legitimate and not a spoofed or malicious site. The CA verifies that the domain owner has control of the domain, and once verified, they issue the SSL/TLS certificate.
+                        </p>
+                        <p>
+                            <span>More Clear?</span>
+                            An SSL certificate authority (CA) is like a trusted company that gives websites a security "stamp." This lets you know that a website is safe and really belongs to who it says.                    
+                        </p>              
+                    </div>                                                                                                                         
                 </div>
-            </section>                
+            </section>
+            <div class="hero-banner-button">
+                <p>
+                    Some sources and more information:
+                    <a href="https://www.usnews.com/360-reviews/privacy/what-is-ssl-certificate" target="_blank">What Is an SSL/TLS Certificate?</a> -
+                    <a href="https://httpd.apache.org/docs/2.4/ssl/ssl_intro.html" target="_blank">SSL/TLS Strong Encryption: An Introduction</a> - 
+                    <a href="https://www.elegantthemes.com/blog/wordpress/tls-vs-ssl-which-protocol-should-you-use?utm_source=Blog&utm_medium=Manual%20Divi%20Targets&utm_campaign=Google%20Search&retargeting=off&gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZdzoOVbv9NqdYQQ-ntwWJl3b5KMOCfTxG8eWaslTKCxlchJhrrT2hRoCFpcQAvD_BwE/" target="_blank">TLS vs SSL: Which Protocol Should You Use?</a>
+                </p>
+            </div> 
         </main>
     </body>
 </html>
